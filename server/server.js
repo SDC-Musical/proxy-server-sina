@@ -1,31 +1,14 @@
 const express = require('express');
-const { createProxyMiddleware } = require('http-proxy-middleware');
 const path = require('path');
 
 const app = express();
 const PORT = 3000;
 
-app.use('/products/:id', express.static(path.join(__dirname, '../public')));
+app.use('/', express.static(path.join(__dirname, '../public')));
 
-app.use('/api/product/quotes', createProxyMiddleware({
-  target: 'ec2-18-220-123-159.us-east-2.compute.amazonaws.com',
-  changeOrigin: true,
-}));
-
-// app.use('/api/reviews', createProxyMiddleware({
-//   target: 'http://localhost:3001',
-//   changeOrigin: true,
-// }));
-
-// app.use('/api/productImages', createProxyMiddleware({
-//   target: 'http://localhost:3003',
-//   changeOrigin: true,
-// }));
-
-// app.use('/', createProxyMiddleware({
-//   target: 'http://localhost:3004',
-//   changeOrigin: true,
-// }));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/index.html'));
+});
 
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}`);
