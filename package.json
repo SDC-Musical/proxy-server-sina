@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server/server.js",
     "start": "node server/server.js",
     "lint": "eslint . --ext .js"
   },
@@ -20,7 +19,6 @@
   "homepage": "https://github.com/Team-Structure/proxy-server-AB#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "http-proxy-middleware": "^1.0.6",
     "path": "^0.12.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
@@ -32,7 +30,6 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.21.4",
-    "eslint-plugin-react-hooks": "^4.1.2",
-    "nodemon": "^2.0.4"
+    "eslint-plugin-react-hooks": "^4.1.2"
   }
 }
