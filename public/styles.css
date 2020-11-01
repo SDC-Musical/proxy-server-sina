@@ -1,0 +1,145 @@
+#top {
+  height: 80px;
+  min-width: 990px;
+  overflow: initial;
+  /* position: fixed; */
+  box-shadow: rgba(0, 0, 0, 0) 0px 1px 7px 0px;
+  color: #222;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  max-height: 999999px;
+  border-bottom: 1px solid #e8eaed;
+}
+
+#topCenter {
+  align-items: center;
+  display: flex;
+  height: 48px;
+  margin: 12px 0 12px 8px;
+}
+
+#hamburger {
+  color: #222;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  z-index: 104;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwAQMAAABtzGvEAAAABlBMVEVHcExhYWGQbC5uAAAAAXRSTlMAQObYZgAAABZJREFUeAFjoAVg/g8EB7BSg9sUygEATXU49brJVxkAAAAASUVORK5CYII=);
+}
+
+  #brandSpace {
+    display: inline-block;
+    cursor: pointer;
+    line-height: 131%;
+    width: 200px;
+  }
+
+  #brandInfo {
+    display: flex;
+    padding-left: 4px;
+    margin-left: 16px;
+    vertical-align: baseline;
+  }
+
+  #brandName {
+    display: inline-block;
+    white-space: nowrap;
+    position: relative;
+    cursor: pointer;
+    border: 0;
+    margin-top: 3px;
+    width: 74px;
+    vertical-align: middle;
+    line-height: 131%;
+  }
+
+  #shopping {
+    color: #5f6368;
+    display: inline-block;
+    font-family: "Product Sans",Roboto,HelveticaNeue,Arial,sans-serif;
+    font-size: 22px;
+    padding-left: 4px;
+    position: relative;
+    text-rendering: optimizeLegibility;
+    vertical-align: middle;
+    line-height: 131%;
+    overflow: initial;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #searchSpace {
+    align-self: baseline;
+    padding-top: 6px;
+    flex-grow: 1;
+    line-height: 131%;
+    max-height: 999999px;
+    vertical-align: baseline;
+  }
+
+  #outline {
+    align-items: center;
+    border: 1px solid #dadce0;
+    border-radius: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 640px;
+    overflow: hidden;
+    position: relative;
+    transition: box-shadow 150ms;
+    line-height: 131%;
+    height: 50px;
+  }
+
+  #magGlass {
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjNWY2MzY4IiBkPSJNMTUuNSAxNGgtLjc5bC0uMjgtLjI3QzE1LjQxIDEyLjU5IDE2IDExLjExIDE2IDkuNSAxNiA1LjkxIDEzLjA5IDMgOS41IDNTMyA1LjkxIDMgOS41IDUuOTEgMTYgOS41IDE2YzEuNjEgMCAzLjA5LS41OSA0LjIzLTEuNTdsLjI3LjI4di43OWw1IDQuOTlMMjAuNDkgMTlsLTQuOTktNXptLTYgMEM3LjAxIDE0IDUgMTEuOTkgNSA5LjVTNy4wMSA1IDkuNSA1IDE0IDcuMDEgMTQgOS41IDExLjk5IDE0IDkuNSAxNHoiLz48cGF0aCBkPSJNMCAwaDI0djI0SDB6IiBmaWxsPSJub25lIi8+PC9zdmc+Cg==) center/24px no-repeat;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    margin: 0 4px 0 8px;
+    line-height: 131%;
+  }
+
+  #searchText {
+    color: #5f6368;
+    font-family: "Product Sans",Roboto,HelveticaNeue,Arial,sans-serif;
+    font-size: 17px;
+    margin-left: 14px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #optionsSpace {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+  }
+
+  #cartSpace {
+    margin-right: 8px;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    cursor: pointer;
+    padding-top: 10px;
+  }
+
+  #cart {
+    background: url(https://mybundlefile.s3.us-east-2.amazonaws.com/Screen+Shot+2020-10-31+at+10.48.43+PM.png) no-repeat center;
+    background-size: 130px;
+    display: block;
+    height: 130px;
+    margin: auto;
+    position: relative;
+    width: 130px;
+  }
