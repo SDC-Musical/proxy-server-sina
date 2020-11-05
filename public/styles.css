@@ -143,3 +143,14 @@
     position: relative;
     width: 130px;
   }
+
+  #app {
+    width: 530px;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+  }
