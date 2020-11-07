@@ -145,7 +145,7 @@
   }
 
   #app {
-    width: 530px;
+    width: 560px;
   }
 
   #container {
@@ -153,4 +153,41 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: left;
+    margin-left: 38px;
+  }
+
+  #productImagesService {
+    margin-top: 27px;
+  }
+
+  #app {
+    margin-top: 15px;
+    text-align: left;
+    list-style: disc outside none;
+    color: #3c4043;
+    font-family: 'Roboto',arial,sans-serif;
+    font-size: 14px;
+  }
+
+  li {
+    margin-bottom: 5px;
+    padding: 0;
+    vertical-align: baseline;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    line-height: 20px;
+  }
+
+  #product-information {
+    margin-left: 20px;
+    max-width: 540px;
+  }
+
+  #product-information p {
+    max-width: 280px;
+  }
+
+  #reviews-service {
+    margin-left: 38px;
+    max-width: 6000px;
   }
